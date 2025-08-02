@@ -18570,4 +18570,12 @@ export const definitions: DefinitionWithExtend[] = [
             ],
         },
     },
+    {
+        zigbeeModel: ['CUBE RGB WW CW'],
+        model: '',
+        vendor: '_TZ3210_ylip8cni',
+        description: 'CUBE RGB WW CW',
+        extend: [m.light({"colorTemp":{"range":[153,500]},"color":{"modes":["xy","hs"]}})],
+        meta: {},
+    },
 ];
